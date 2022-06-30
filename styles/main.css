@@ -24,7 +24,8 @@
   float: left;
   display: block;
   color: black;
-  font-family: 'Roboto', sans-serif;  
+  font-family: 'Roboto', sans-serif; 
+  font-size: 20px; 
   text-align: center;
   padding: 16px 16px;
   text-decoration: none;
@@ -71,6 +72,7 @@
 .contentbox a {
 color: black;
 text-decoration: none;
+font-size: 30px;
 }
 
 .contentbox a:hover{
