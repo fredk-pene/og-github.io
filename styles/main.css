@@ -18,7 +18,7 @@
 }
 .topnav {
   overflow: hidden;
-  background-color: white;
+  background-color: rgb(249, 240, 240);
 }
 .topnav a {
   float: left;
@@ -67,6 +67,12 @@
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
+
+.contentbox a {
+color: black;
+text-decoration: none;
+}
+
 .contentbox a:hover{
   background-color: rgb(249, 240, 240);
   color: black;
@@ -90,6 +96,7 @@
  background-color: rgb(249, 240, 240);
  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 1);
 }
+
 @media screen and (max-width: 600px) {
   .about {
     width: 100%;
