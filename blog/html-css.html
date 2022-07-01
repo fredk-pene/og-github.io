@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My blog</title>
+<meta name="viewport" content="width=device-width, initial-scale1">
+<meta charset="UTF-8">
+<link href="../styles/techstyle.css" rel="stylesheet" type="text/css">
+
+<!--Links-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Titan+One&display=swap" rel="stylesheet">
+</head>
+<!--links-->
+<body>
+
+  <div class="topnav">
+    <a href="../index.html">Home</a>
+    <a href=#..Pages/blog.html#>Blog</a>
+    <a href=##>About</a>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" style="float:right">Random</a>
+  </div>
+  <section>  
+    <div class="header">
+      <h1>Sprint 2 Technical Document</h1>
+    </div>
+  </section>
+
+  <div class="pageWrapper">
+    <h2 class="titanfont" > What are the best practices associated with using classes vs. ids?</h2>
+    <div class="robofont">
+     <P>We would use the <strong>class</strong> attribute to specify
+     a style for a mixed group of element tags giving them all styles
+     they will then have in common, it is possible to implement multiple classes
+     in a single class tag (examples in picture bellow), it's important to rememeber
+     when you insert your class name to a class attribute that you don't add spaces
+     as it would be read as different class making the inteded one void show the default style results.
+     </P>
+     <br>
+     <p>We would use the <strong>id</strong> attribute when we have a single element on our page
+     that we want to hookup to a link or styled in a specific way seperate from the <strong>class</strong>
+     styles, it's considered good practise to not use the same id tag for multiple different
+     element tags on the same html document as it's suppoed to be unique to a specific element and you would
+     use the class attribute for the purpose of styling more than a single element, id tags
+     also have a higher specificity/importance over the class attribute for example if you 
+     were to have an id and class attribute both set to change the font color then the id tag then by default
+     the id style will show in the result again due to higher specificity (examples pictured)
+     </p>
+     <br>
+      <div class="container">
+          <div class="img">
+           <img src="../Images/screenshot1.png">
+           <h3 class="robofont">Code Example </h3>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+          <div class="img">
+           <img src="../Images/screenshot2.png">
+           <h3 class="robofont">Code Result Example</h3>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+ 
+
+ <footer id="footer" class="robofont">Made by Fred</footer>
+</body>
+</html>
