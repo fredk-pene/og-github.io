@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SPRINT 3 TECH BLOG JS</title>
+    <title>Javascript & DOM Blog</title>
 <meta name="viewport" content="width=device-width, initial-scale1">
 <meta charset="UTF-8">
-<link href="../styles/main.css" rel="stylesheet" type="text/css">
+<link href="../styles/Javascript-dom.css" rel="stylesheet" type="text/css">
 
 <!--Links-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,9 +26,14 @@
       </button>
       <div class="dropdown-content">
         <a href="html-css.html">Classes & IDS</a>
-        <a href=##>link</a>
+        <a href="javascript-dom.html">Javascript & DOM</a>
         <a href=##>link</a>
       </div>
+
+
+    </div>
+   <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" style="float:right"> </a>
+  </div>
 
   <section>  
     <div class="header">
@@ -37,31 +42,100 @@
   </section>
 
   <div class="pageWrapper">
-    <h2 class="titanfont" > What are the best practices associated with using classes vs. ids?</h2>
+    <h2 class="titanfont" >An analogy to describe JavaScript and its relationship to HTML and CSS.</h2>
     <div class="robofont">
-     <P>
+     <P>Let's say we're building a flat-pack, In the same way that HTML contains the text, image, and other building
+       pieces for your website. Each flat-pack box comes with an instruction manual containing  both text and images 
+       that demonstrate how to put the flat-pack together.  Using the instructions and materials supplied, we can construct 
+       our flatpack similarly to how you would use CSS to design items on a website that might need to be aligned, displayed ,
+        or positioned in a particular location in order to function (assuming we've just put together a cabinet  we are then, 
+        blessed with doors that might have knobs or handles which open and close adding functionality to our cabinet), 
+        similarly to how Javascript can add functionality or change elements to our HTML document via the dom.
      </P>
-     <br>
-     
-     <br>
       <div class="container">
           <div class="img">
-           <img src="../Images/screenshot1.png">
-           <h3 class="robofont">Code Example </h3>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-          <div class="img">
-           <img src="../Images/screenshot2.png">
-           <h3 class="robofont">Code Result Example</h3>
+           <img src="../Images/holyTrio.gif">
+           <h3 class="robofont">Example of HTML, CSS & JavaScript used together</h3>
           </div>
         </div>
       </div>
 
+      <br>
+
+      <h2 class="titanfont" >Explain control flow and loops using an example process from everyday life.</h2>
+      <div class="robofont">
+        <p>The order and sequence for when our code is run in a script is known as the control flow. Control flow is 
+        needed if a piece of code needs to be run repeatedly but with a different value each time.  Furthermore for as 
+        long as a condition is met, a loop executes the same code repeatedly. Using breakfast as a metaphor example process,
+        (assuming you're not a hobbit and only have breakfast once a day), you're daily breakfast would be an example of 
+        control flow , but if you are a hobbit and partake in consumption of multiple breakfasts meals you could compare 
+        that to looping….
+        </p>
+      </div>
+
+      <br>
+
+      <h2 class="titanfont" >Describe what the DOM is and an example of how you might interact with it.</h2>
+      <div class="robofont">
+        <p>The Document Object Model otherwise known as DOM, is a programming interface for HTML web documents. 
+          The program allows us to to create change or remove elements from a web document giving our page more functionality,
+           making it more dynamic. We can access these elements in the HTML document and make changes to them using JavaScript.
+
+          The DOM consists of a tree structure of nested nodes created by the browser that makes it possible for programming
+          languages to readily access the HTML structure. This tree structure is often referred to as the DOM tree , commonly
+          likened to an ancient family tree, which includes parents, children, and siblings , (depending on their relationship
+          to other nodes, all nodes will sit somewhere in that family category, parents , children ect).</p>
+      </div>
+      <div class="container">
+          <div class="img">
+           <img src="../Images/domtree.png">
+           <h3 class="robofont">Example of the DOM tree layout</h3>
+          </div>
+        </div>
+      </div>
+      <br>
+      <h2 class="titanfont" >Differences between accessing data from arrays and objects.</h2>
+      <div class="robofont">
+        <p>Arrays can access data using index, whereas Objects access data using strings, in the picture below is an example
+          i've put together.
+        </p>
+      </div>
+      <div class="container">
+        <div class="img">
+         <img src="../Images/arraysVsobjects.png">
+         <h3 class="robofont">Accessing an Array example</h3>
+        </div>
+      </div>
     </div>
-  </div>
- 
+    <br>
+    <h2 class="titanfont" >Explain what functions are and why they are helpful.</h2>
+      <div class="robofont">
+        <p>A function is a block of code that works almost like a mini-program. It's
+           used to perform certain actions that only run when it's called/activated. Functions 
+           can also be used multiple times, rather than writing the same code out multiple times 
+           you can condense it it into a function saving you a lot of time. In the images below,
+           I've included examples from the scrimba course. Rather than writing out console.log,
+           we condensed it into a function, called/activated it with countdown()(key). The outcome is the
+           same without the hassle of having to write out console. log several times, while also 
+           cleaning up our code .
+        </p>
+        <br>
+        <div class="flex-center">
+          <div id="function-post">
+            <img src="/Images/functionseg1.png">
+          </div>
+          <div id="function-2eg">
+            <img src="/Images/functionseg2.png">
+          </div>
+        </div>
+        <div>
+          <h3 class="robofont">Function example </h3>
+        </div>
+        <br>
+
+
+    </div>
+  </div> 
 
  <footer id="footer" class="robofont">Made by Fred</footer>
 </body>

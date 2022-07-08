@@ -138,8 +138,36 @@ border: 1px solid black;}
    background-color: rgb(249, 240, 240);
    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 1);
   }
- 
-  @media screen and (max-width: 500px) {
+
+  .flex-center{
+    display: flex;
+    justify-content: center;
+  }
+#function-post{
+display: flex;
+justify-content: center;
+border: none;
+}
+
+#function-post img{
+  width: 50vw;
+  height: auto;
+  padding: 15px;
+}
+
+#function-2eg{
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+#function-2eg img{
+  width: 50vw;
+  height: auto;
+  padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
     .img {
       width: 100%;
     }
