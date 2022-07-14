@@ -144,6 +144,49 @@ border: 1px solid black;}
   margin: 0;
   padding: 0;
   }
+
+
+  .flex-center{
+    display: flex;
+    justify-content: center;
+  }
+#function-post{
+display: flex;
+justify-content: center;
+border: none;
+}
+
+#function-post img{
+  width: 50vw;
+  height: auto;
+  padding: 15px;
+}
+
+#function-2eg{
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+#function-2eg img{
+  width: 50vw;
+  height: auto;
+  padding: 10px;
+}
+
+#holytrio{
+  width:75vw;
+  height:auto;
+  vertical-align: middle;
+border: 1px solid black;
+}
+
+#domtree{
+  width:75vw;
+  height:auto;
+  vertical-align: middle;
+border: none;
+}
  
   @media screen and (max-width: 500px) {
     .img {
