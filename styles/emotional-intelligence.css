@@ -78,6 +78,7 @@
 
 .p{
   text-align: center;
+  vertical-align: middle;
   font-family: 'Roboto', sans-serif;
  }
 .pageWrapper{
@@ -202,6 +203,11 @@ border: 1px solid black;
 }
 #problem-example {
   width: 45vw;
+  height: auto;
+}
+
+.htmlCSS {
+  width: 70vw;
   height: auto;
 }
  
