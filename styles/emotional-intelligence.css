@@ -82,7 +82,8 @@
   font-family: 'Roboto', sans-serif;
  }
 .pageWrapper{
-  margin: 0 auto;
+  margin:  auto;
+  flex-wrap: wrap;
   padding-top: 75px;
   width: 80%;
   }

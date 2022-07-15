@@ -104,7 +104,7 @@
 
 .contentbox {
   background-color: rgb(249, 240, 240);
-  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 1);
   padding: 16px;
   margin: 20px;
   width: 30vw;
@@ -176,13 +176,13 @@ font-size: 30px;
 @media screen /*tablet*/
   and (max-device-width: 768px) {
     h1{ 
-   color: brown;
+   color: pink;
     }
   }
 @media screen /*phone*/
   and (max-device-width: 320px) {
     h1{
-    color: pink;
+    color: brown;
     }
   }
 
