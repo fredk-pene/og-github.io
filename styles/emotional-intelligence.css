@@ -81,9 +81,9 @@
   font-family: 'Roboto', sans-serif;
  }
 .pageWrapper{
-  margin: auto;
+  margin: 0 auto;
   padding-top: 75px;
-  width: 75vw;
+  width: 80%;
   }
    h2{
     padding-bottom: 40px;
@@ -151,41 +151,58 @@ border: 1px solid black;}
     justify-content: center;
   }
 #function-post{
+width: 40vw;
+height: auto;
+padding: 15px;
 display: flex;
 justify-content: center;
 border: none;
 }
 
-#function-post img{
-  width: 50vw;
-  height: auto;
-  padding: 15px;
-}
+/* #function-post img{
+  
+} */
 
 #function-2eg{
+  width: 40vw;
+  height: auto;
+  padding: 15px;
   display: flex;
   justify-content: center;
   border: none;
 }
 
-#function-2eg img{
-  width: 50vw;
-  height: auto;
-  padding: 10px;
-}
+/* #function-2eg img{
+  
+} */
 
 #holytrio{
-  width:75vw;
+  width:60vw;
   height:auto;
   vertical-align: middle;
 border: 1px solid black;
 }
 
-#domtree{
-  width:75vw;
+#arrExample{
+  width:60vw;
   height:auto;
   vertical-align: middle;
-border: none;
+  border: 1px solid black;
+}
+
+#domtree{
+  width:45vw;
+  height:auto;
+  vertical-align: middle;
+  border: 1px solid black;
+}
+#Mathgif {
+  width: 50vw;
+  height: auto;
+}
+#problem-example {
+  width: 45vw;
+  height: auto;
 }
  
   @media screen and (max-width: 500px) {
