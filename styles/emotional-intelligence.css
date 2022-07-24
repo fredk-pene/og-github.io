@@ -7,7 +7,7 @@
 .header {
   background-color: rgb(249, 240, 240);
   font-family: 'Titan One', cursive;
-  font-size: 180%;
+  font-size: 60px;
   padding: 20px;
   text-align: center;
 }
@@ -80,16 +80,21 @@
   text-align: center;
   vertical-align: middle;
   font-family: 'Roboto', sans-serif;
+  font-size: 21px;
  }
+
+ .h3{
+  font-size: 34px;
+}
+h2{
+ padding-bottom: 40px;
+}
 .pageWrapper{
   margin:  auto;
   flex-wrap: wrap;
   padding-top: 75px;
   width: 80%;
   }
-   h2{
-    padding-bottom: 40px;
-   }
 
   img {
     width:75vw;
