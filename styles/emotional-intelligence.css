@@ -11,11 +11,11 @@
   padding: 20px;
   text-align: center;
 }
-.topnav {
+.navBar {
   overflow: hidden;
   background-color: rgb(249, 240, 240);
 }
-.topnav a {
+.navBar a {
   float: left;
   display: block;
   color: black;
@@ -25,7 +25,7 @@
   padding: 16px 16px;
   text-decoration: none;
 }
-.topnav a:hover {
+.navBar a:hover {
   background-color:rgb(249, 240, 240);
   color: black;
   text-decoration: underline;
@@ -151,8 +151,6 @@ border: 1px solid black;}
   margin: 0;
   padding: 0;
   }
-
-
   .flex-center{
     display: flex;
     justify-content: center;
@@ -165,11 +163,6 @@ display: flex;
 justify-content: center;
 border: none;
 }
-
-/* #function-post img{
-  
-} */
-
 #function-2eg{
   width: 40vw;
   height: auto;
@@ -178,25 +171,18 @@ border: none;
   justify-content: center;
   border: none;
 }
-
-/* #function-2eg img{
-  
-} */
-
 #holytrio{
   width:60vw;
   height:auto;
   vertical-align: middle;
 border: 1px solid black;
 }
-
 #arrExample{
   width:60vw;
   height:auto;
   vertical-align: middle;
   border: 1px solid black;
 }
-
 #domtree{
   width:45vw;
   height:auto;
@@ -211,12 +197,56 @@ border: 1px solid black;
   width: 45vw;
   height: auto;
 }
-
 .htmlCSS {
   width: 70vw;
   height: auto;
 }
- 
+/* BACK TO TOP BUTTON */
+#backtoTop {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+/* back to top button */
+.scrollToTopBtn {
+  background-color: black;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 48px;
+  width: 48px;
+  /* place it at the bottom right corner */
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  /* keep it at the top of everything else */
+  z-index: 100;
+  /* hide with opacity */
+  opacity: 0;
+  /* also add a translate effect */
+  transform: translateY(100px);
+  /* and a transition */
+  transition: all .5s ease
+}
+
+.showBtn {
+  opacity: 1;
+  transform: translateY(0)
+}
+
   @media screen and (max-width: 500px) {
     .img {
       width: 100%;
