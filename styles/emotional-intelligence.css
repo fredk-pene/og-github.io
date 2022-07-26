@@ -7,8 +7,8 @@
 .header {
   background-color: rgb(249, 240, 240);
   font-family: 'Titan One', cursive;
-  font-size: 60px;
-  padding: 20px;
+  font-size: 4.5vw;
+  padding: 20px 5px;
   text-align: center;
 }
 .navBar {
@@ -49,7 +49,13 @@
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
-
+.pageWrapper{
+  margin:  auto;
+  flex-wrap: wrap;
+  padding-top: 75px;
+  width: 75%;
+  height: 75%;
+  }
 .dropdown-content {
   display: none;
   position: absolute;
@@ -89,12 +95,6 @@
 h2{
  padding-bottom: 40px;
 }
-.pageWrapper{
-  margin:  auto;
-  flex-wrap: wrap;
-  padding-top: 75px;
-  width: 80%;
-  }
 
   img {
     width:75vw;
